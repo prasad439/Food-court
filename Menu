@@ -1,0 +1,22 @@
+#include<stdio.h>
+intmain()
+{
+int CHOICE ;
+printf("Enter the choice : %d ", CHOICE );
+scanf("%d", &CHOICE);
+
+switch(CHOICE)
+{
+case 1 : printf ("Your choice is : Pizza \n It's cost is : Rs.239"); break ;
+
+case 2 : printf ("Your choice is : Burger  \n It's cost is : Rs.129"); break ;
+
+case 3 : printf ("Your choice is : Pasta \n It's cost is : Rs.179"); break ;
+
+case 4 : printf ("Your choice is : Sandwich \n It's cost is : Rs.149 "); break ;
+
+default : printf ("Your choice is : French Fries \n It's cost is : Rs.99"); break ;
+
+}
+return 0 ;
+}
